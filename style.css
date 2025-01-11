@@ -133,9 +133,11 @@ main{
     margin-top: 80px 0px 40px;
 }
 
+/* Section 3 box 1 */
+
 #sec3box1{
     display: flex;
-    justify-content: left;
+    flex-direction: row;
     background-color: white;
     border-radius: 25px;
     margin: 20px 0px 20px;
@@ -165,6 +167,45 @@ main{
 }
 
 #sec3box1content>section>button:hover{
+    background-color: white;
+    color: rgb(0 106 80);
+    border: 2px solid rgb(0 106 80);
+}
+
+/* Section 3 box 2 */
+
+#sec3box2{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: white;
+    border-radius: 25px;
+    margin: 20px 0px 20px;
+    padding: 40px;
+}
+
+#sec3box2img{
+    width: 40%;
+}
+
+#sec3box2img>img{
+    border-radius: 25px;
+}
+
+#sec3box2content{
+    width: 60%;
+}
+
+#sec3box2content>section>button{
+    background-color: rgb(0 106 80);
+    color: white;
+    font-size: 16px;
+    height: 41px;
+    width: 122px;
+    border-radius: 5px;
+    border: none;
+}
+
+#sec3box2content>section>button:hover{
     background-color: white;
     color: rgb(0 106 80);
     border: 2px solid rgb(0 106 80);
