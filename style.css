@@ -264,3 +264,12 @@ main{
     color: rgb(0 106 80);
     border: 2px solid rgb(0 106 80);
 }
+
+
+
+
+footer{
+    margin: auto;
+    width: 70%;
+    text-align: center;
+}
