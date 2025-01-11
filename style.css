@@ -210,3 +210,57 @@ main{
     color: rgb(0 106 80);
     border: 2px solid rgb(0 106 80);
 }
+
+/* section 4 */
+
+#sec4{
+    margin: 80px opx 80px;
+}
+
+#sec4>section{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#sec4>section>button{
+    background-color: white;
+    height: 128px;
+    width: 240px;
+    font-size: 40px;
+    border-radius: 25px;
+    border: none; 
+}
+
+#sec4>section>button:hover{
+    background-color: rgb(198 228 214);
+}
+
+#sec4>div{
+    display: flex;
+    justify-content: center;
+}
+
+#sec4>div>input{
+    margin: 40px;
+    height: 50px;
+    width: 70%;
+    border-radius: 5px;
+    color: white;
+    border: none;
+}
+
+#sec4>div>button{
+    background-color: rgb(0 106 80);
+    color: white;
+    font-size: 16px;
+    height: 41px;
+    width: 122px;
+    border-radius: 5px;
+    border: none;
+}
+
+#sec4>div>button:hover{
+    background-color: white;
+    color: rgb(0 106 80);
+    border: 2px solid rgb(0 106 80);
+}
