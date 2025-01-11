@@ -1,0 +1,31 @@
+#secOne{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    border-radius: 25px;
+    background-color: rgba(198, 228, 214, 1);
+    width: 70%;
+    height: 400px;
+    padding: 5%;
+}
+#heroLeft>p{
+    font-size: 26px;
+    color: rgba(14, 14, 14, 0.5);
+}
+#heroLeft>h1{
+    font-size: 56px;
+}
+#heroLeft>button{
+    background-color: rgba(0, 106, 80, 1);
+    color: aliceblue;
+    height: 56px;
+    width: 270px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+}
+#heroLeft>button:hover{
+    background-color: aliceblue;
+    color: rgba(0, 106, 80, 1);
+    border: 2px solid rgba(0, 106, 80, 1);
+}
