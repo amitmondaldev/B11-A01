@@ -1,5 +1,6 @@
 body{
     background-color: rgb(236, 233, 233);
+    font-family: "Fira Sans", serif;
 }
 main{
     width: 70%;
@@ -265,11 +266,47 @@ main{
     border: 2px solid rgb(0 106 80);
 }
 
+#newsLetter{
+    padding: 60px;
+    margin: 40px 0px 40px;
+    background-color: rgb(198 228 214);
+    border-radius: 25px;
+}
 
+#newsLetter>section{
+    display: flex;
+    justify-content: center;
+}
 
+#newsLetter>section>input{
+    height: 56px;
+    width: 600px;
+    border-radius:8px 0px 0px 8px;
+    color: white;
+    border: none;
+}
+
+#newsLetter>section>button{
+    height: 57px;
+    width: 150px;
+    border-radius: 0px 8px 8px 0px;
+    background-color: rgb(0 106 80);
+    color: white;
+    size: 18px;
+    border: none;
+}
+
+#newsLetter>section>button:hover{
+    height: 57px;
+    background-color: white;
+    color: rgb(0 106 80);
+    size: 18px;
+    border: 2px solid rgb(0 106 80);
+}
 
 footer{
+    background-color: white;
     margin: auto;
-    width: 70%;
+    padding: 40px;
     text-align: center;
 }
